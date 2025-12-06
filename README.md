@@ -34,3 +34,13 @@ A complete data engineering pipeline that automatically extracts, transforms, an
         Data Type Verification: Confirms column types match expectations
                    <br>
         Completeness Scoring: Calculates overall data quality score
+
+4. Cloud Storage (loader.py)
+        <br>
+         AWS S3 Integration: Uploads to cloud storage
+           <br>
+         Bucket Management: Creates S3 buckets if needed
+             <br>
+         File Upload: Supports CSV and Parquet formats
+             <br>
+         Error Handling: Robust upload failure management
